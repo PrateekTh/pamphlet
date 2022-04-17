@@ -2,9 +2,17 @@
   text-align: center;
 }
 
+body, input {
+  font-family: 'Inconsolata', Roboto Mono, monospace;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.nav-link{
+  font-size: 3vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -30,7 +38,8 @@
 
 .main-head{
   font-family: 'Major Mono Display', monospace;
-  font-size: 4vh;
+  font-size: 5vh;
+  padding-right: 7vh;
 }
 
 @keyframes App-logo-spin {

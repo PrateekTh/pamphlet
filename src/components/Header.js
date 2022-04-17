@@ -22,10 +22,10 @@ export default function Header(props) {
                 </form>
 
                 <div className="text-end">
-                <button type="button" className="btn btn-outline-light me-2">Login</button>
-                <button type="button" className="btn btn-warning">Sign-up</button>
+                <button type="button" className="btn btn-outline-light me-2">Click Me!</button>
                 </div>
             </div>
+            
             </div>
         </header>
     )

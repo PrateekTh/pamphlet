@@ -6,8 +6,15 @@
   background-color: black;
 }
 
-body, input {
+input {
   font-family: 'Inconsolata', Roboto Mono, monospace;
+  background-color: #E4FDE1 !important;
+}
+
+body{
+  background-color: #75485E;
+  font-family: 'Inconsolata', Roboto Mono, monospace;
+  color: #E4FDE1;
 }
 
 .App-logo {
@@ -17,6 +24,7 @@ body, input {
 
 .nav-link{
   font-size: 3vh;
+  color: #E4FDE1 !important;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -44,6 +52,7 @@ body, input {
   font-family: 'Major Mono Display', monospace;
   font-size: 5vh;
   padding-right: 7vh;
+  color: #E4FDE1 !important;
 }
 
 @keyframes App-logo-spin {

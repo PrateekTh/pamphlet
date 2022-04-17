@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 export default function Header(props) {
     return (
-        <header className="p-3 bg-dark text-white">
+        <header className="p-3 header-container">
             <div className="container">
             <div className="d-flex align-items-center justify-content-center justify-content-lg-start">
                 <a href="/" className="main-head d-flex align-items-center mb-2 text-white text-decoration-none">
